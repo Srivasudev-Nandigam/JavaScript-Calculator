@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <!-- Buttons -->
+    <input type="text" id="equation" class="textBox" oninput="numbersOnly(this)"><br>
+    <button onclick="addToEquation(this)" class="number" value="1">1</button>
+    <button onclick="addToEquation(this)" class="number" value="2">2</button>
+    <button onclick="addToEquation(this)" class="number" value="3">3</button>
+    <button onclick="addToEquation(this)" class="symbol" value="/">/</button><br>
+    <button onclick="addToEquation(this)" class="number" value="4">4</button>
+    <button onclick="addToEquation(this)" class="number" value="5">5</button>
+    <button onclick="addToEquation(this)" class="number" value="6">6</button>
+    <button onclick="addToEquation(this)" class="symbol" value="*">*</button><br>
+    <button onclick="addToEquation(this)" class="number" value="7">7</button>
+    <button onclick="addToEquation(this)" class="number" value="8">8</button>
+    <button onclick="addToEquation(this)" class="number" value="9">9</button>
+    <button onclick="addToEquation(this)" class="symbol" value="-">-</button><br>
+    <button onclick="addToEquation(this)" class="symbol" value=".">.</button>
+    <button onclick="addToEquation(this)" class="number" value="0">0</button>
+    <button onclick="addToEquation(this)" class="symbol" value="+">+</button>
+    <button onclick="enterEquation()" class="symbol equal" value="=">=</button><br>
+    <button onclick="clearEquation()" class="clear">CLEAR ALL</button>
+
+    <!-- Script(s) -->
+    <script src="calculator.js"></script>
+</body>
+</html>

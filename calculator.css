@@ -1,0 +1,38 @@
+* {
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.number {
+    background-color: lightblue;
+    width: 41px;
+    height: 2em;
+}
+
+.symbol {
+    background-color: lightgreen;
+    width: 41px;
+    height: 2em;
+}
+
+.clear {
+    background-color: lightcoral;
+    width: 175px;
+    height: 2em;
+    margin-top: 1px;    
+}
+
+.equal {
+    background-color: rgb(240, 197, 128) !important;
+}
+
+.textBox {
+    background-color: lightcyan;
+    height: 2em;
+    font-size: 14px;
+}
